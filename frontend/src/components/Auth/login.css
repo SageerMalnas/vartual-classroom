@@ -1,0 +1,55 @@
+/* Login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #545353; /* Light background color for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+  }
+  
+  form {
+    background-color: #a7a4a4; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 0 10px rgba(203, 202, 202, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width */
+    max-width: 100%; /* Responsive width */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Rounded corners for input fields */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff; /* Blue background for the button */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  input::placeholder {
+    color: #888; /* Placeholder text color */
+  }
+  
+  @media (max-width: 600px) {
+    form {
+      width: 90%; /* Adjust form width on smaller screens */
+    }
+  }
+  

@@ -42,7 +42,7 @@ const Register = () => {
         <option value="student">Student</option>
         <option value="instructor">Instructor</option>
       </select>
-      <button type="submit" onClick={navigate('/')}>Register</button>
+      <button type="submit">Register</button>
     </form>
   );
 };

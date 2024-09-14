@@ -2,6 +2,7 @@ import { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { loginUser } from '../../api/api';
 import AuthContext from '../../Context/AuthContext';
+import './login.css'
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });
