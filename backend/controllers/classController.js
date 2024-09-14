@@ -4,7 +4,7 @@ const Class = require('../models/Class');
 exports.createClass = async (req,res) =>{
     const {title, instructor} = req.body;
     try{
-        const newClass = new Class = ({title,instructor});
+        const newClass = new Class({title,instructor});
         await newClass.save();
         res.status(201).json(newClass);
     } catch(err){
