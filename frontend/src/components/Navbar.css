@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+nav {
+    width: 100%;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    position: fixed; /* Fixed position to stick to the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex;
+    justify-content: center; /* Center align the navigation items */
+  }
+  
+  ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items in a row */
+  }
+  
+  li {
+    margin: 0 15px; /* Space between items */
+  }
+  
+  a, button {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Padding around text */
+    display: inline-block;
+  }
+  
+  a:hover, button:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button {
+    border: none; /* Remove default border from button */
+    background: transparent; /* Transparent background */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
